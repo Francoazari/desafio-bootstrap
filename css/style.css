@@ -132,6 +132,12 @@ main h1 {
     transform: scale(1.02,1.02);
 }
 
+#aboutme img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 footer img {
     width: 1.5em;
