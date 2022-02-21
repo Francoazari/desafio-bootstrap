@@ -2,6 +2,11 @@ a {
     text-decoration: none;
 }
 
+.construccion{
+    max-width: 700px;
+    width: 100%;
+}
+
 .navbar__logo{
     width: 2em;
 }
