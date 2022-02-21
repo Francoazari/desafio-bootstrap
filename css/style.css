@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+}
+
+.main__content_proyect {
+    max-width: 250px;
+    max-height: 250px;    
+    display: inline-block;
+    border-radius: 5px; 
+    margin: 7.5px;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    overflow: hidden;
+    transition: all 0.5s;    
+    background-size: cover;
+    object-fit: cover;
+}
+
+.main__content_proyect:hover {
+    transform: scale(1.05);
+}
+
+.main__content_proyect_background_1 {
+    background-image: url('../images/proyects/proyect_1/background-image.jpg');
+}
+.main__content_proyect_background_2 {
+    background-image: url('../images/proyects/proyect_2/background-image.jpg');
+}
+.main__content_proyect_background_3 {
+    background-image: url('../images/proyects/proyect_3/background-image.jpg');
+}
+.main__content_proyect_background_4 {
+    background-image: url('../images/proyects/proyect_4/background-image.jpg');
+}
+.main__content_proyect_background_5 {
+    background-image: url('../images/proyects/proyect_5/background-image.jpg');
+}
+.main__content_proyect_background_6 {
+    background-image: url('../images/proyects/proyect_6/background-image.jpg');
+}
+.main__content_proyect_background_7 {
+    background-image: url('../images/proyects/proyect_7/background-image.jpg');
+}
+.main__content_proyect_background_8 {
+    background-image: url('../images/proyects/proyect_8/background-image.jpg');
+}
+.main__content_proyect_background_9 {
+    background-image: url('../images/proyects/proyect_9/background-image.jpg');
+}
+.main__content_proyect_background_10 {
+    background-image: url('../images/proyects/proyect_10/background-image.jpg');
+}
+
+.main__content_proyect_background_secondary{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px; 
+    transition: all 0.5s;
+}
+
+.main__content_proyect_text {
+    position: relative;
+    padding-top: 200px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.main__content_text {
+    transition: all 0.5s;
+}
+
+.main__content_description {
+    visibility: hidden;
+}
+.main__content_proyect_background_secondary:hover .main__content_proyect_text {
+    padding-top: 10px;
+}
+
+.main__content_proyect_background_secondary:hover .main__content_text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main__content_proyect_background_secondary:hover .main__content_description {
+    visibility: visible;
+}
+
+.main__content_proyect_text p{
+    margin: 10px;
+    color: #ffffff;
+}
+
+footer img {
+    width: 1.5em;
+}
