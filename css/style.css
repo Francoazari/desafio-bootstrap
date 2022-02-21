@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+.navbar__logo{
+    width: 2em;
+}
+
 .main__content_proyect {
     max-width: 250px;
     max-height: 250px;    
@@ -14,6 +18,10 @@ a {
     transition: all 0.5s;    
     background-size: cover;
     object-fit: cover;
+}
+
+main h1 {
+    text-align: center;
 }
 
 .main__content_proyect:hover {
@@ -94,3 +102,5 @@ a {
 footer img {
     width: 1.5em;
 }
+
+
